@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Navigation } from './Pages/Navigation';
+import { Home } from './Pages/Home';
 import { About } from './Pages/About';
-import { Landing } from './Pages/Landing';
 import { Portfolio } from './Pages/Portfolio';
 import './App.css';
 
@@ -10,12 +11,13 @@ function App() {
     <div className="App">
       <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Landing />}>
-          <Route index element={<Landing />} />
-          <Route path="blogs" element={<About />} />
-          <Route path="contact" element={<Portfolio />} />
+        <Route path="/" element={<Navigation />}>
+          <Route index element={<Home />} />
+          <Route path="about" element={<About />} />
+          <Route path="portfolio" element={<Portfolio />} />
         </Route>
       </Routes>
+      
      </BrowserRouter>
     </div>
   );
