@@ -12,7 +12,7 @@ export function Home() {
         </p>
         <p>
           blah blah blah, you can learn more about my work experience{" "}
-          <Link to="/portfolio/portfolio">here</Link>
+          <Link to="/portfolio/work">here</Link>
         </p>
         <h2>contact me</h2>
         <p>links</p>

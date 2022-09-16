@@ -12,7 +12,7 @@ export function Navigation() {
           <Link to="/portfolio/about">about</Link>
         </li>
         <li className="nav-item">
-          <Link to="/portfolio/portfolio">portfolio</Link>
+          <Link to="/portfolio/work">work</Link>
         </li>
       </ul>
       <Outlet />
