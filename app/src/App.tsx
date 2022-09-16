@@ -4,7 +4,6 @@ import { Navigation } from "./Pages/Navigation";
 import { Home } from "./Pages/Home";
 import { About } from "./Pages/About";
 import { Portfolio } from "./Pages/Portfolio";
-import { Contact } from "./Pages/Contact";
 import "./App.css";
 
 function App() {
