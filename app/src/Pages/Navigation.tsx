@@ -6,7 +6,7 @@ export function Navigation() {
     <div className="nav-menu">
       <ul className="nav-items">
         <li className="nav-item">
-          <Link to="/portfolio">home</Link>
+          <Link to="/portfolio/">home</Link>
         </li>
         <li className="nav-item">
           <Link to="/portfolio/about">about</Link>
