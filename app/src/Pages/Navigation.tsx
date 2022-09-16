@@ -6,13 +6,13 @@ export function Navigation() {
     <div className="nav-menu">
       <ul className="nav-items">
         <li className="nav-item">
-          <Link to="/">Home</Link>
+          <Link to="/">home</Link>
         </li>
         <li className="nav-item">
-          <Link to="/about">About</Link>
+          <Link to="/about">about</Link>
         </li>
         <li className="nav-item">
-          <Link to="/portfolio">Portfolio</Link>
+          <Link to="/portfolio">portfolio</Link>
         </li>
       </ul>
       <Outlet />
