@@ -1,0 +1,14 @@
+.nav-menu {
+  margin-right: 5%;
+}
+
+.nav-items {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  display: flex;
+  width: 100px;
+}
