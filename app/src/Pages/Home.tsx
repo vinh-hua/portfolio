@@ -8,11 +8,11 @@ export function Home() {
         <p>frontend software engineer</p>
         <p>
           blah blah blah, you can learn more about my hobbies and background{" "}
-          <Link to="/about">here</Link>
+          <Link to="/portfolio/about">here</Link>
         </p>
         <p>
           blah blah blah, you can learn more about my work experience{" "}
-          <Link to="/portfolio">here</Link>
+          <Link to="/portfolio/portfolio">here</Link>
         </p>
         <h2>contact me</h2>
         <p>links</p>
