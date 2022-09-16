@@ -1,3 +1,10 @@
 export function Portfolio() {
-    return <></>;
+  return (
+    <>
+      <h1>portfolio</h1>
+      <p>microsoft viva insights</p>
+      <p>capstone - civic qa</p>
+      <p>tommi</p>
+    </>
+  );
 }
