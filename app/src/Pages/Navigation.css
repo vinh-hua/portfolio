@@ -1,3 +1,7 @@
+a:visited {
+  color: inherit;
+}
+
 .nav-menu {
   margin-right: 5%;
   list-style-type: none;
