@@ -5,7 +5,6 @@ export function Home() {
     <>
       <div>
         <h1>hi, i'm vivian!</h1>
-        <p>frontend software engineer</p>
         <p>
           blah blah blah, you can learn more about my hobbies and background{" "}
           <Link to="/portfolio/about">here</Link>
