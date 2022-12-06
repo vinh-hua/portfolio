@@ -4,17 +4,16 @@ export function Home() {
   return (
     <>
       <div>
-        <h1>hi, i'm vivian!</h1>
+        <h1>Hi, I am Vinh!</h1>
         <p>
-          blah blah blah, you can learn more about my hobbies and background{" "}
-          <Link to="/portfolio/about">here</Link>
+          I am a frontend developer! You can learn more about my work and
+          project experiences <Link to="/portfolio/work">here</Link>.
         </p>
         <p>
-          blah blah blah, you can learn more about my work experience{" "}
-          <Link to="/portfolio/work">here</Link>
+          {" "}
+          If you want to get to know what I've been up to recently, you can
+          visit the about page <Link to="/portfolio/about">here</Link>.
         </p>
-        <h2>contact me</h2>
-        <p>links</p>
       </div>
     </>
   );
