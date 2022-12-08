@@ -21,7 +21,7 @@ export function Home() {
         <p>
           I am looking to return to frontend development for work! You can learn
           more about my work and project experiences{" "}
-          <Link to="/portfolio/work">here</Link>.
+          <Link to="/portfolio/experience">here</Link>.
         </p>
         <p>
           {" "}
