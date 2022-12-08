@@ -7,14 +7,14 @@ export function Navigation() {
       <ul className="nav-menu">
         <li className="logo">
           <Link to="/portfolio">
-            <button>home</button>
+            <button>Vinh</button>
           </Link>
         </li>
         <li className="link">
-          <Link to="/portfolio/about">about</Link>
+          <Link to="/portfolio/about">About</Link>
         </li>
         <li className="link">
-          <Link to="/portfolio/work">work</Link>
+          <Link to="/portfolio/work">Work</Link>
         </li>
       </ul>
       <Outlet />
